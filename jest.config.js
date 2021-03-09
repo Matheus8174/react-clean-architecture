@@ -4,8 +4,8 @@ module.exports = {
     '<rootDir>/src/**/*.{ts,tsx}'
   ],
   coverageDirectory: 'coverage',
-  testEnviroment: 'node',
-  trasform: {
+  testEnvironment: 'node',
+  transform: {
     '.*\\.ts$': 'ts-jest'
   }
 }
